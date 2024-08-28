@@ -30,7 +30,7 @@ public class Q10926 {
                 System.out.println("소문자가 아닌 글자가 포함되어 있습니다.");
             }
         } else {
-            System.out.println("20글자 이하로 입력해 주세요.");
+            System.out.println("50글자 이하로 입력해 주세요.");
         }//end if
     }//main
     
