@@ -1,21 +1,17 @@
-package step03;
+package step3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Q25314 {
+public class Q2739 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = Integer.parseInt(br.readLine());
+        int num = Integer.parseInt(br.readLine());
 
-        int result = n/4;
-
-        for(int i = 0; i < result; i++) {
-            System.out.print("long ");
+        for(int i = 1; i < 10; i++) {
+            System.out.println(num + " * " + i + " = " + (num*i));
         }//end for
-
-        System.out.print("int");
     }//main
 }//class

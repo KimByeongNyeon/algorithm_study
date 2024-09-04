@@ -1,9 +1,9 @@
-package step03;
+package step3;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Q15552 {
+public class Q11022 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -16,7 +16,7 @@ public class Q15552 {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
 
-            bw.write((a+b) + "\n");
+            bw.write("Case #" + (i+1) + ": " + a + " + " + b + " = " + (a+b) + "\n");
         }//end for
         bw.flush();
 
