@@ -1,29 +1,24 @@
 package step1.no10926;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-//        String id = scanner.next();
-//        System.out.println(id+"??!");
-
-        System.out.println("문자열입력: ");
-        String str = scanner.nextLine();
-        System.out.println(str);
-
-        System.out.println("문자열입력: ");
-        String str2 = scanner.next();
-        System.out.println(str2);
-
-//        System.out.println("정수입력: ");
-//        int i=scanner.nextInt();
-//        System.out.println(i);
+    public static void main(String[] args) throws IOException {
+//        Scanner sc = new Scanner(System.in);
 //
-//        System.out.println("실수입력: ");
-//        double j =scanner.nextDouble();
-//        System.out.println(j);
+//        String lastString = "??!";
+//
+//        String x = sc.next();
+//        System.out.println(x + lastString);
 
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        String lastString = "??!";
+
+        String s = br.readLine();
+        System.out.println(s + lastString);
     }
 }

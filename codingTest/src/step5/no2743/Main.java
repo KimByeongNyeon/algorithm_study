@@ -1,20 +1,16 @@
-package step1.no18108;
+package step5.no2743;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-//        Scanner sc = new Scanner(System.in);
-//
-//        int year =sc.nextInt();
-//
-//        System.out.println(year-543);
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        
+        String st = br.readLine(); //문자열 한줄
+        br.close();
+
+        System.out.println(st.length());
     }
 }

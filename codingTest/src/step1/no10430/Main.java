@@ -34,16 +34,16 @@ public class Main {
 //        System.out.println((A%C * B%C)%C);
 
         //100ms
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        String[] str = br.readLine().split(" ");
-        int A = Integer.parseInt(str[0]);
-        int B = Integer.parseInt(str[1]);
-        int C = Integer.parseInt(str[2]);
-
-        System.out.println( (A+B)%C );
-        System.out.println( (A%C + B%C)%C );
-        System.out.println( (A*B)%C );
-        System.out.println( (A%C * B%C)%C );
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        String[] str = br.readLine().split(" ");
+//        int A = Integer.parseInt(str[0]);
+//        int B = Integer.parseInt(str[1]);
+//        int C = Integer.parseInt(str[2]);
+//
+//        System.out.println( (A+B)%C );
+//        System.out.println( (A%C + B%C)%C );
+//        System.out.println( (A*B)%C );
+//        System.out.println( (A%C * B%C)%C );
     }
 }
